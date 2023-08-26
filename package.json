@@ -13,7 +13,7 @@
     "react-p5": "^1.3.35",
     "react-scripts": "^5.0.1"
   },
-  "homepage": "https://sakamo-bnn.github.io/P5jstoolReact/",
+  "homepage": "https://sakamo-bnn.github.io/ShapeMakerP5js/",
   "devDependencies": {
     "@babel/runtime": "7.13.8",
     "typescript": "4.1.3"
