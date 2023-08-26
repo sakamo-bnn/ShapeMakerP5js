@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ShapeMakerP5js/static/css/main.e600effb.css",
+    "main.js": "/ShapeMakerP5js/static/js/main.acd3f5af.js",
+    "index.html": "/ShapeMakerP5js/index.html",
+    "main.e600effb.css.map": "/ShapeMakerP5js/static/css/main.e600effb.css.map",
+    "main.acd3f5af.js.map": "/ShapeMakerP5js/static/js/main.acd3f5af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e600effb.css",
+    "static/js/main.acd3f5af.js"
+  ]
+}
