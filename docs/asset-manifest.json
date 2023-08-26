@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/P5jstoolReact/static/css/main.48a23085.css",
+    "main.js": "/P5jstoolReact/static/js/main.8e1e8085.js",
+    "index.html": "/P5jstoolReact/index.html",
+    "main.48a23085.css.map": "/P5jstoolReact/static/css/main.48a23085.css.map",
+    "main.8e1e8085.js.map": "/P5jstoolReact/static/js/main.8e1e8085.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48a23085.css",
+    "static/js/main.8e1e8085.js"
+  ]
+}
