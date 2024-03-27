@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ShapeMakerP5js/static/css/main.e600effb.css",
-    "main.js": "/ShapeMakerP5js/static/js/main.acd3f5af.js",
+    "main.css": "/ShapeMakerP5js/static/css/main.be44374d.css",
+    "main.js": "/ShapeMakerP5js/static/js/main.cbee396e.js",
     "index.html": "/ShapeMakerP5js/index.html",
-    "main.e600effb.css.map": "/ShapeMakerP5js/static/css/main.e600effb.css.map",
-    "main.acd3f5af.js.map": "/ShapeMakerP5js/static/js/main.acd3f5af.js.map"
+    "main.be44374d.css.map": "/ShapeMakerP5js/static/css/main.be44374d.css.map",
+    "main.cbee396e.js.map": "/ShapeMakerP5js/static/js/main.cbee396e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e600effb.css",
-    "static/js/main.acd3f5af.js"
+    "static/css/main.be44374d.css",
+    "static/js/main.cbee396e.js"
   ]
 }

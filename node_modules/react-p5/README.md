@@ -171,6 +171,30 @@ const Sketch = dynamic(() => import("react-p5").then((mod) => {
 });
 ```
 
+When using dynamic import, the type information for the methods extended by `p5.sound.d.ts` is not loaded. Therefore, we can use [Type-Only Imports](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-8.html#type-only-imports-and-export) to address this.
+
+```typescript
+import dynamic from 'next/dynamic'
+
+// importing only type information from p5.sound addons.
+import type from "p5/lib/addons/p5.sound"
+
+// Will only import `react-p5` on client-side
+const Sketch = dynamic(() => import("react-p5").then((mod) => {
+
+  // importing sound lib only after react-p5 is loaded.
+  require('p5/lib/addons/p5.sound');
+
+  // returning react-p5 default export
+  return mod.default
+}), {
+  ssr: false
+});
+
+```
+
+
+
 ## Props
 
 | Prop                                                           | Required           | Type     | Description                                                                                                                                                                                                           |
