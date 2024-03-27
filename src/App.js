@@ -123,8 +123,8 @@ export default function App() {
     // 頂点の正規化
     for (let i = 0; i < vertexes.length; i++) {
       normalizedVertex.push({
-        x: Math.round((vertexes[i].x - opeInfo.center.x) / max.x * 1000) / 1000,
-        y: Math.round((vertexes[i].y - opeInfo.center.y) / max.y * 1000) / 1000,
+        x: Math.round((vertexes[i].x - opeInfo.center.x) / (2 * max.x) * 1000) / 1000,
+        y: Math.round((vertexes[i].y - opeInfo.center.y) / (2 * max.y) * 1000) / 1000,
       });
     }
 
@@ -188,8 +188,8 @@ export default function App() {
           </div>
           <div className="hyperlink">
             <ul>
-              <li><a href="https://editor.p5js.org/">p5.js Web Editor</a></li>
-              <li><a href="https://openprocessing.org/">OpenProcessing</a></li>
+              <li><a href="https://editor.p5js.org/" target="_blank">p5.js Web Editor</a></li>
+              <li><a href="https://openprocessing.org/" target="_blank">OpenProcessing</a></li>
             </ul>
           </div>
         </header>
